@@ -2,9 +2,12 @@
 Working progress installation guide
 
 ## Installing
-1. Install Go
-2. Do go mod innit
-3. Install Dependencies
+1. Install buildessentials 
+2. Download Go
+3. Extract go to /usr/local
+4. Add go bin to $PATH
+5. Do go mod innit
+6. Install Dependencies
 
 ```
 go get github.com/Azure/azure-sdk-for-go/services/compute/mgmt/
